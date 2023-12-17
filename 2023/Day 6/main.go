@@ -8,16 +8,7 @@ type Race struct {
 }
 
 func main() {
-	inputPartOne := map[int]Race{
-		1: {45, 305},
-		2: {97, 1062},
-		3: {72, 1110},
-		4: {95, 1695},
-	}
-
-	inputPartTwo := map[int]Race{
-		1: {45977295, 305106211101695},
-	}
+	
 
 	totalWaysToWin := 1
 
